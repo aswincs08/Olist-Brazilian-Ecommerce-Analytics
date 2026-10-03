@@ -210,31 +210,31 @@ The Excel workbook includes analysis covering:
 
 ### Excel Dashboard
 
-![Excel Dashboard](screenshots/excel_dashboard.png)
+![Excel Dashboard](screenshots/dashboard_exl.png)
 
 ### Excel Sales Analysis
 
-![Excel Sales Analysis](screenshots/excel_sales_analysis.png)
+![Excel Sales Analysis](screenshots/sales_analysis_exl.png)
 
 ### Excel Customer Summary
 
-![Excel Customer Summary](screenshots/excel_customer_summary.png)
+![Excel Customer Summary](screenshots/customer_summary_exl.png)
 
 ### Excel Seller Analysis
 
-![Excel Seller Analysis](screenshots/excel_seller_analysis.png)
+![Excel Seller Analysis](screenshots/seller_analysis_exl.png)
 
 ### Excel Delivery Analysis
 
-![Excel Delivery Analysis](screenshots/excel_delivery_analysis.png)
+![Excel Delivery Analysis](screenshots/delivery_analysis_exl.png)
 
 ### Excel Payment Analysis
 
-![Excel Payment Analysis](screenshots/excel_payment_analysis.png)
+![Excel Payment Analysis](screenshots/payment_analysis_exl.png)
 
 ### Excel Pivot Analysis
 
-![Excel Pivot Analysis](screenshots/excel_pivot_analysis.png)
+![Excel Pivot Analysis](screenshots/pivot_table_exl.png)
 
 ---
 
