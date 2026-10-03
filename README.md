@@ -149,7 +149,9 @@ Seller-level analysis shows variation in delivery performance and customer satis
 
 ## 📊 Power BI Dashboard
 
-The Power BI dashboard contains seven analytical pages:
+The Power BI dashboard contains seven analytical pages covering executive performance, sales, customers, products and sellers, delivery, customer satisfaction, and payments.
+
+### Dashboard Pages
 
 1. Executive Overview
 2. Sales Performance Analysis
@@ -191,6 +193,51 @@ The Power BI dashboard contains seven analytical pages:
 
 ---
 
+## 📗 Excel Analysis
+
+Excel was used for data validation, business analysis, PivotTable-based exploration, and dashboard development.
+
+The Excel workbook includes analysis covering:
+
+- Sales performance
+- Customer analysis
+- Seller analysis
+- Delivery performance
+- Payment analysis
+- Review and customer satisfaction
+- PivotTable-based business analysis
+- Dashboard reporting
+
+### Excel Dashboard
+
+![Excel Dashboard](screenshots/excel_dashboard.png)
+
+### Excel Sales Analysis
+
+![Excel Sales Analysis](screenshots/excel_sales_analysis.png)
+
+### Excel Customer Summary
+
+![Excel Customer Summary](screenshots/excel_customer_summary.png)
+
+### Excel Seller Analysis
+
+![Excel Seller Analysis](screenshots/excel_seller_analysis.png)
+
+### Excel Delivery Analysis
+
+![Excel Delivery Analysis](screenshots/excel_delivery_analysis.png)
+
+### Excel Payment Analysis
+
+![Excel Payment Analysis](screenshots/excel_payment_analysis.png)
+
+### Excel Pivot Analysis
+
+![Excel Pivot Analysis](screenshots/excel_pivot_analysis.png)
+
+---
+
 ## 📁 Repository Structure
 
 ```text
@@ -224,7 +271,14 @@ Olist-Brazilian-Ecommerce-Analytics/
     ├── executive_overview.png
     ├── payment_analysis.png
     ├── product_seller_analysis.png
-    └── sales_analysis.png
+    ├── sales_analysis.png
+    ├── excel_customer_summary.png
+    ├── excel_dashboard.png
+    ├── excel_delivery_analysis.png
+    ├── excel_payment_analysis.png
+    ├── excel_pivot_analysis.png
+    ├── excel_sales_analysis.png
+    └── excel_seller_analysis.png
 ```
 
 ---
@@ -249,7 +303,7 @@ The [`sql`](sql/) folder contains PostgreSQL analysis covering:
 - Category analysis
 - Payment analysis
 
-### 📄 Report
+### 📄 Project Report
 
 [`Olist_Brazilian_Ecommerce_Analytics_Report.docx`](report/Olist_Brazilian_Ecommerce_Analytics_Report.docx)
 
@@ -279,7 +333,7 @@ The original Olist datasets are not included in this repository.
 
 The completed Excel workbook and Power BI `.pbix` file are maintained separately because of GitHub file-size limitations.
 
-Dashboard screenshots are included to demonstrate the Power BI analysis and visualization work.
+Dashboard screenshots are included to demonstrate the Power BI and Excel analysis and visualization work.
 
 ---
 
