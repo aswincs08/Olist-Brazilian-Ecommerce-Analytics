@@ -82,86 +82,118 @@ Power BI Dashboard
 Business Insights
         ↓
 Recommendations
-📈 Key Business Metrics
-Metric	Value
-Total Orders	99,441
-Unique Customers	96,096
-Total Sales Value	R$15.84M
-Average Order Value	R$160.58
-Average Review Score	4.09 / 5
-Valid Deliveries	96,287
-Delayed Deliveries	7,823
-Delayed Delivery Rate	8.12%
-💡 Key Business Insights
-1. Customer Retention
+```
 
-The dataset contains 96,096 unique customers, with 93,099 one-time customers and 2,997 repeat customers.
+---
+
+## 📈 Key Business Metrics
+
+| Metric | Value |
+|---|---:|
+| Total Orders | 99,441 |
+| Unique Customers | 96,096 |
+| Total Sales Value | R$15.84M |
+| Average Order Value | R$160.58 |
+| Average Review Score | 4.09 / 5 |
+| Valid Deliveries | 96,287 |
+| Delayed Deliveries | 7,823 |
+| Delayed Delivery Rate | 8.12% |
+
+---
+
+## 💡 Key Business Insights
+
+### 1. Customer Retention
+
+The dataset contains **96,096 unique customers**, with **93,099 one-time customers** and **2,997 repeat customers**.
 
 This indicates an opportunity to investigate customer retention and post-purchase engagement strategies.
 
-2. Sales Performance
+### 2. Sales Performance
 
-The marketplace recorded approximately R$15.84 million in total order value across 99,441 orders, with an average order value of approximately R$160.58.
+The marketplace recorded approximately **R$15.84 million in total order value across 99,441 orders**, with an average order value of approximately **R$160.58**.
 
-3. Product Category Concentration
+### 3. Product Category Concentration
 
 The top product categories account for a substantial share of product sales, indicating that category-level demand monitoring can support inventory and commercial planning.
 
-4. Geographic Sales Concentration
+### 4. Geographic Sales Concentration
 
 São Paulo, Rio de Janeiro, and Minas Gerais account for a large share of total sales value.
 
 This makes geographic analysis relevant for logistics, customer experience, and operational planning.
 
-5. Delivery Performance
+### 5. Delivery Performance
 
-Among orders with valid delivery information, 7,823 orders were classified as delayed, representing approximately 8.12% of valid deliveries.
+Among orders with valid delivery information, **7,823 orders were classified as delayed**, representing approximately **8.12% of valid deliveries**.
 
 Delivery performance varies considerably across states.
 
-6. Customer Satisfaction
+### 6. Customer Satisfaction
 
-The overall average review score was 4.09 out of 5, with 57.78% of reviews receiving five stars.
+The overall average review score was **4.09 out of 5**, with **57.78% of reviews receiving five stars**.
 
 Delayed orders generally received lower review scores than orders delivered on time or early. This is an observed association and should not be interpreted as proof of causation.
 
-7. Payment Behavior
+### 7. Payment Behavior
 
-Credit cards represented the largest payment method by value, accounting for approximately 78.34% of payment value.
+Credit cards represented the largest payment method by value, accounting for approximately **78.34% of payment value**.
 
 Installment payments were also widely used among credit-card transactions.
 
-8. Seller Performance
+### 8. Seller Performance
 
 Seller-level analysis shows variation in delivery performance and customer satisfaction among higher-volume sellers, suggesting opportunities for targeted operational investigation.
 
-📊 Power BI Dashboard
+---
+
+## 📊 Power BI Dashboard
 
 The Power BI dashboard contains seven analytical pages:
 
-Executive Overview
-Sales Performance Analysis
-Customer Analysis
-Product & Seller Analysis
-Delivery & Logistics Analysis
-Customer Satisfaction Analysis
-Payment Analysis
-Dashboard Preview
-Executive Overview
+1. Executive Overview
+2. Sales Performance Analysis
+3. Customer Analysis
+4. Product & Seller Analysis
+5. Delivery & Logistics Analysis
+6. Customer Satisfaction Analysis
+7. Payment Analysis
 
-Sales Analysis
+### Dashboard Preview
 
-Customer Analysis
+#### Executive Overview
 
-Product & Seller Analysis
+![Executive Overview](screenshots/executive_overview.png)
 
-Delivery & Logistics Analysis
+#### Sales Analysis
 
-Customer Satisfaction Analysis
+![Sales Analysis](screenshots/sales_analysis.png)
 
-Payment Analysis
+#### Customer Analysis
 
-📁 Repository Structure
+![Customer Analysis](screenshots/customer_analysis.png)
+
+#### Product & Seller Analysis
+
+![Product & Seller Analysis](screenshots/product_seller_analysis.png)
+
+#### Delivery & Logistics Analysis
+
+![Delivery & Logistics Analysis](screenshots/delivery_analysis.png)
+
+#### Customer Satisfaction Analysis
+
+![Customer Satisfaction Analysis](screenshots/customer_satisfaction.png)
+
+#### Payment Analysis
+
+![Payment Analysis](screenshots/payment_analysis.png)
+
+---
+
+## 📁 Repository Structure
+
+```text
 Olist-Brazilian-Ecommerce-Analytics/
 │
 ├── README.md
@@ -186,61 +218,73 @@ Olist-Brazilian-Ecommerce-Analytics/
 │   └── Olist_Brazilian_Ecommerce_Analytics_Report.docx
 │
 └── screenshots/
-    ├── executive_overview.png
-    ├── sales_analysis.png
     ├── customer_analysis.png
-    ├── product_seller_analysis.png
-    ├── delivery_analysis.png
     ├── customer_satisfaction.png
-    └── payment_analysis.png
-📂 Project Files
-Python
+    ├── delivery_analysis.png
+    ├── executive_overview.png
+    ├── payment_analysis.png
+    ├── product_seller_analysis.png
+    └── sales_analysis.png
+```
 
-01_olist_data_profiling.ipynb
+---
+
+## 📂 Project Files
+
+### 🐍 Python
+
+[`01_olist_data_profiling.ipynb`](notebooks/01_olist_data_profiling.ipynb)
 
 Contains the initial data profiling, data quality assessment, cleaning, feature preparation, and exploratory analysis.
 
-SQL
+### 🗄️ SQL
 
-The sql folder contains PostgreSQL analysis covering:
+The [`sql`](sql/) folder contains PostgreSQL analysis covering:
 
-Data validation
-Sales analysis
-Customer analysis
-Seller analysis
-Delivery analysis
-Category analysis
-Payment analysis
-Report
+- Data validation
+- Sales analysis
+- Customer analysis
+- Seller analysis
+- Delivery analysis
+- Category analysis
+- Payment analysis
 
-Olist_Brazilian_Ecommerce_Analytics_Report.docx
+### 📄 Report
+
+[`Olist_Brazilian_Ecommerce_Analytics_Report.docx`](report/Olist_Brazilian_Ecommerce_Analytics_Report.docx)
 
 Contains the detailed project methodology, findings, business insights, recommendations, limitations, and KPI reference.
 
-🔍 Data Quality & Methodology
+---
+
+## 🔍 Data Quality & Methodology
 
 The project includes data-quality checks covering:
 
-Missing values
-Duplicate records
-Referential consistency
-Multiple payment records per order
-Multiple review records per order
-Delivery-date anomalies
-Product category translation coverage
+- Missing values
+- Duplicate records
+- Referential consistency
+- Multiple payment records per order
+- Multiple review records per order
+- Delivery-date anomalies
+- Product category translation coverage
 
 The analysis uses descriptive and diagnostic methods. Observed relationships are not automatically interpreted as causal relationships.
 
-⚠️ Data & File Availability
+---
+
+## ⚠️ Data & File Availability
 
 The original Olist datasets are not included in this repository.
 
-The completed Excel workbook and Power BI .pbix file are maintained separately because of GitHub file-size limitations.
+The completed Excel workbook and Power BI `.pbix` file are maintained separately because of GitHub file-size limitations.
 
 Dashboard screenshots are included to demonstrate the Power BI analysis and visualization work.
 
-👤 Author
+---
 
-Aswin C S
+## 👤 Author
+
+**Aswin C S**
 
 M.Sc. Statistics | Data Analytics & Data Science
